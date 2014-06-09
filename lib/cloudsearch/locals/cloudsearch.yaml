@@ -1,0 +1,27 @@
+cloudsearch:
+  actions:
+    define_index_field:
+      action_name: DefineIndexField     
+      required: 
+        index_name: 
+        index_type: 'text'
+      index_field:
+        name: IndexField
+        index_name: IndexFieldName
+        index_type: IndexFieldType
+        literal_options: 
+          name: LiteralOptions
+          default: DefaultValue
+          facet_enabled: FacetEnabled
+          result_enabled: ResultEnabled
+          search_enabled: SearchEnabled
+        text_options: 
+          name: TextOptions
+          default: DefaultValue
+          facet_enabled: FacetEnabled
+          result_enabled: ResultEnabled
+        uint_options: 
+          name: UIntOptions 
+          default: DefaultValue
+
+
